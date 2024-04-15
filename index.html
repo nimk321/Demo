@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relief Connect</title>
+
+    <link
+      rel="shortcut icon"
+      href="./assets/logo-trans.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+
+  <body>
+    <header class="container-fluid d-flex justify-content-space-between">
+      <div class="logo">
+        <a href="./index.html">
+          <img class="logo-img" src="./assets/logo-trans.png" alt=""
+        /></a>
+      </div>
+
+      <nav class="d-flex justify-content-end w-100">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a href="#">About <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-content">
+              <a href="./about.html"> About Us</a>
+              <a href="./partners.html"> Our Partners</a>
+              <a href="./safety.html"> Safety Instructions</a>
+            </div>
+          </li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./volunteer.html">Volunteer</a></li>
+          <li class="dropdown">
+            <a href="#">Community Support <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-content">
+              <a href="./offer-assistance.html">Offer Assistance</a>
+              <a href="./request-assistance.html">Request Assistance </a>
+            </div>
+          </li>
+          <li><a href="./contact.html">Contact Us</a></li>
+          <button class="rounded-3 btn-block donate">
+            <a href="./donate.html" class="text-white">DONATE</a>
+          </button>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/1.png"
+              class="img-fluid d-block slider-img w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>"Hope in Every Drop"</h1>
+              <p class="fs-6">
+                Experience the joy captured in the image of a girl carrying a
+                water gallon, symbolizing the profound impact of ReliefConnect's
+                humanitarian support. Delve into the significance of clean water
+                as a catalyst for positive change and empowerment.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/2.png"
+              class="img-fluid d-block slider-img w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>
+                "From Local to Global: A Tapestry of ReliefConnect's Outreach"
+              </h1>
+              <p class="fs-6">
+                Witness the intricate tapestry of ReliefConnect's outreach, as
+                illustrated by numbered dots on the world map. This visual
+                narrative captures our journey from local to global, bringing
+                humanitarian support to diverse corners of the world.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/blog-detail-1.jpg"
+              class="img-fluid d-block slider-img w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>"Silent Echoes: The Thoughtful Moments of Age"</h1>
+              <p class="fs-6">
+                Capturing the quiet contemplation of an elderly man, this
+                poignant image invites you to delve into the depth of his
+                reflections. Explore the wisdom and rich experiences mirrored in
+                his gaze, embodying the profound journey of a lifetime.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="d-flex mt-3 px-5">
+        <div class="mt-4 p-3">
+          <h1>Who we are,</h1>
+          <p class="mt-4">
+            ReliefConnect stands as a dynamic and multifaceted platform
+            committed to expediting responses to disasters, delivering vital
+            humanitarian aid, and nurturing a spirit of unity within
+            communities. Positioned as an all-encompassing online hub,
+            ReliefConnect assumes a crucial role in bringing together
+            individuals, relief organizations, and volunteers to enhance
+            coordination and guarantee the fair distribution of aid when
+            confronted with urgent situations. Serving as a catalyst for
+            collaboration, ReliefConnect actively engages various stakeholders,
+            fostering a collective approach to effectively address critical
+            needs during times of adversity.
+          </p>
+          <button class="btn btn-dark btn-block mt-4 rounded-3 p-2">
+            <a
+              class="text-white"
+              href="./about.html"
+              style="text-decoration: none"
+              >More About Us</a
+            >
+          </button>
+        </div>
+        <div class="abt-img mt-4">
+          <img src="./assets/logo-trans.png" alt="" />
+        </div>
+      </div>
+
+      <div class="charity container-fluid">
+        <h1 class="my-3">Funded Chartity Projects</h1>
+        <div class="charity-pjs my-5">
+          <div class="card">
+            <div class="card-img">
+              <img src="./assets/card-1.jpg" alt="" />
+            </div>
+            <div class="card-title pt-3">
+              <h4>Medical Ais</h4>
+            </div>
+            <div class="card-txt">
+              <p>
+                "ReliefConnect swiftly delivers targeted medical assistance
+                during disasters for community well-being."
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./assets/card-2.jpg" alt="" />
+            </div>
+            <div class="card-title pt-3">
+              <h4>Financial Aid</h4>
+            </div>
+            <div class="card-txt">
+              <p>
+                "ReliefConnect allocates resources strategically for equitable
+                relief, offering crucial financial support in times of crisis."
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./assets/card-3.png" alt="" />
+            </div>
+            <div class="card-title pt-3">
+              <h4>Volunteer</h4>
+            </div>
+            <div class="card-txt">
+              <p>
+                "ReliefConnect engages volunteers dynamically, uniting
+                individuals for impactful action during critical situations."
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./assets/card-4.jpg" alt="" />
+            </div>
+            <div class="card-title pt-3">
+              <h4>Educational Ais</h4>
+            </div>
+            <div class="card-txt">
+              <p>
+                "ReliefConnect supports community resilience through education
+                initiatives, aiding recovery after disasters."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="banner d-flex my-5">
+        <h2 class="pt-5 text-white">
+          WE ARE CHARITY, <br /><br />
+          OUR MISSION TO PROTECT PEOPLE & THE PLANET, <br /><br />
+          OUR ACTIVITIES ARE TAKEN AROUND THE WORLD.
+        </h2>
+
+        <img src="./assets/banner.png" alt="" />
+      </div>
+
+      <div class="success-story mt-3 container-fluid">
+        <h1 class="py-3">Our Success Stories</h1>
+        <p class="px-5">
+          "Embark on a Journey of Compassion and Collaboration with
+          ReliefConnect Chronicles: Triumphs in Aid and Unity. Explore the
+          Heartfelt Narratives of Swift Medical Marvels, Financial Revival,
+          Volunteer Heroes, and Educational Resilience. Discover How
+          ReliefConnect's Impactful Initiatives Transcend Crisis, Bringing Hope,
+          Rebuilding Lives, and Fostering a Strong Sense of Unity in
+          Communities. These Inspiring Stories Illuminate the Power of
+          Collective Action and Showcase the Transformative Nature of
+          ReliefConnect's Mission. Join Us in Celebrating the Unwavering Spirit
+          of Triumph and Resilience Across Every Chapter of ReliefConnect
+          Chronicles."
+        </p>
+
+        <div class="container success">
+          <div class="testimonial-card mt-2 rounded-3 p-1">
+            <div class="story-img">
+              <img src="./assets/story-1.png" alt="" />
+            </div>
+            <div class="container">
+              <p class="abt-txt pt-2">
+                "Explore uplifting stories of lives transformed by
+                ReliefConnect's strategic financial aid, providing hope and
+                rebuilding after disasters."
+              </p>
+            </div>
+            <a href="./blog.html"
+              ><button class="btn btn-success w-100 mt-1">
+                See Details ...
+              </button></a
+            >
+          </div>
+
+          <div class="container success">
+            <div class="testimonial-card mt-2 rounded-3 p-1">
+              <div class="story-img">
+                <img src="./assets/story-2.png" alt="" />
+              </div>
+              <div class="container">
+                <p class="abt-txt pt-2">
+                  "Read how ReliefConnect's rapid medical aid turned critical
+                  moments into miracles, offering a lifeline to communities in
+                  health crises."
+                </p>
+              </div>
+              <a href="./blog.html"
+                ><button class="btn btn-success w-100 mt-1">
+                  See Details ...
+                </button>
+              </a>
+            </div>
+
+            <div class="container success">
+              <div class="testimonial-card mt-2 rounded-3 p-1">
+                <div class="story-img">
+                  <img src="./assets/story-3.png" alt="" />
+                </div>
+                <div class="container">
+                  <p class="abt-txt pt-2">
+                    "Discover captivating tales of ReliefConnect's volunteers,
+                    embodying passion and collaboration in making a real impact
+                    during critical situations."
+                  </p>
+                </div>
+                <a href="./blog.html"
+                  ><button class="btn btn-success w-100 mt-1">
+                    See Details ...
+                  </button>
+                </a>
+              </div>
+
+              <div class="container success">
+                <div class="testimonial-card mt-2 rounded-3 p-1">
+                  <div class="story-img">
+                    <img src="./assets/story-4.png" alt="" />
+                  </div>
+                  <div class="container">
+                    <p class="abt-txt pt-2">
+                      "Unveil success stories of ReliefConnect-supported
+                      educational initiatives, showcasing the power of education
+                      in restoring dreams."
+                    </p>
+                  </div>
+                  <a href="./blog.html"
+                    ><button class="btn btn-success w-100 mt-1">
+                      See Details ...
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="conatiner mt-4 col-12">
+          <nav
+            class="pagination d-flex justify-content-center align-items-center"
+          >
+            <ul>
+              <li class="page-item">
+                <a class="pagr-link" href="#"
+                  ><i class="fas fa-angle-double-left"></i
+                ></a>
+              </li>
+              <li class="page-item"><a class="pagr-link" href="#">1</a></li>
+              <li class="page-item"><a class="pagr-link" href="#">2</a></li>
+              <li class="page-item"><a class="pagr-link" href="#">.</a></li>
+              <li class="page-item"><a class="pagr-link" href="#">.</a></li>
+              <li class="page-item">
+                <a class="pagr-link" href="#">
+                  <i class="fas fa-angle-double-right"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="container m-5 col-12">
+        <h4 class="py-3">Frequently Asked Question(s):</h4>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                How does ReliefConnect work as an inclusive online hub?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                ReliefConnect serves as an inclusive online hub by uniting
+                individuals, relief organizations, and volunteers. It
+                streamlines coordination and facilitates the equitable
+                distribution of aid during critical situations.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                Who is the target audience for ReliefConnect?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                The primary target audience for ReliefConnect includes Canadian
+                individuals, families, non-profit organizations, and community
+                groups, along with donors who want to actively participate in
+                relief efforts.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                How can I volunteer with ReliefConnect?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                To volunteer with ReliefConnect, individuals can explore various
+                opportunities based on their skills and interests. Whether you
+                are tech-savvy, a community advocate, or have emergency response
+                expertise, ReliefConnect provides diverse avenues for active
+                participation.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+                aria-expanded="false"
+                aria-controls="flush-collapseFour"
+              >
+                As a donor, how can I contribute securely to ReliefConnect?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Donors can contribute securely by using verified channels,
+                making donations through the official ReliefConnect website,
+                avoiding scams, using secure payment methods, and researching
+                the organization's legitimacy before making a commitment.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive"
+                aria-expanded="false"
+                aria-controls="flush-collapseFive"
+              >
+                What opportunities exist for offering assistance to
+                ReliefConnect?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                ReliefConnect encourages various forms of assistance, including
+                skill-based contributions, community outreach, financial
+                support, and participation in educational initiatives. These
+                diverse opportunities allow individuals to contribute
+                meaningfully to ReliefConnect's mission.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="conatiner mb-3 col-12">
+        <nav
+          class="pagination d-flex justify-content-center align-items-center"
+        >
+          <ul>
+            <li class="page-item">
+              <a class="pagr-link" href="#"
+                ><i class="fas fa-angle-double-left"></i
+              ></a>
+            </li>
+            <li class="page-item"><a class="pagr-link" href="#">1</a></li>
+            <li class="page-item"><a class="pagr-link" href="#">2</a></li>
+            <li class="page-item"><a class="pagr-link" href="#">.</a></li>
+            <li class="page-item"><a class="pagr-link" href="#">.</a></li>
+            <li class="page-item">
+              <a class="pagr-link" href="#">
+                <i class="fas fa-angle-double-right"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </main>
+
+    <footer id="#footer">
+      <div class="container-fluid foot-container">
+        <div class="foot-abt">
+          <h3>About ReliefConnect:</h3>
+          <p class="pt-3">
+            ReliefConnect serves as a versatile relief service website, driven
+            by a fundamental mission to accelerate disaster response, offer
+            essential humanitarian assistance, and cultivate a sense of unity
+            within communities. Designed as an inclusive online hub, this
+            platform will play a pivotal role in uniting individuals, relief
+            organizations, and volunteers, all working in tandem to streamline
+            the coordination and equitable distribution of aid when confronted
+            with critical situations
+          </p>
+        </div>
+        <div class="links">
+          <h3>Quick Links:</h3>
+          <ul class="pt-3">
+            <li><a href="#">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./blog.html">Blogs</a></li>
+            <li><a href="./volunteer.html">Volunteer</a></li>
+            <li><a href="./offer-assistance.html">Community Support</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <h3>Newsletter:</h3>
+          <p class="pt-3">Stay updated with our latest news and promotions.</p>
+          <form>
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <button type="submit" class="subscribe-btn">Subscribe</button>
+          </form>
+          <div class="social-icons my-3">
+            <a href="https://www.facebook.com/"
+              ><i class="fab fa-facebook fa-2x text-dark" title="Facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/">
+              <i class="fab fa-instagram fa-2x text-dark" title="Instagram"></i
+            ></a>
+            <a href="https://twitter.com/?lang=en">
+              <i class="fab fa-twitter fa-2x text-dark" title="Twitter"></i
+            ></a>
+            <a href="https://www.youtube.com/">
+              <i class="fab fa-youtube fa-2x text-dark" title="Youtube"></i
+            ></a>
+            <a href="https://www.google.com/"
+              ><i class="fab fa-google fa-2x text-dark" title="Google"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="info-container">
+        <div class="rights">
+          <i class="fas fa-copyright"></i>
+          <span>** ReliefConnect | All Rights Reserved-2023.</span>
+        </div>
+        <div class="policy">
+          <ul class="lists">
+            <li><a class="text-dark" href="#">Terms of service</a></li>
+            <li><a class="text-dark" href="#">Privacy Policy</a></li>
+            <li><a class="text-dark" href="#">General Information</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <button
+      id="scrollToTopBtn"
+      class="btn btn-secondary top-button rounded-5 text-white"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <button
+      type="button"
+      class="btn btn-success rounded-5 toaster"
+      id="liveToastBtn"
+    >
+      <i class="fas fa-bell fa-1x"></i>
+    </button>
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div
+        id="liveToast"
+        class="toast"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="toast-header">
+          <img
+            src="./assets/chat-logo.png"
+            class="rounded me-2 w-25 h-25"
+            alt="..."
+          />
+          <strong class="me-auto">Recent Message</strong>
+          <small>10 mins ago</small>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="toast-body">Emergency calling..</div>
+      </div>
+    </div>
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./main.js"></script>
+</html>
